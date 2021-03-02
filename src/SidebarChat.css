@@ -1,0 +1,27 @@
+.group_chat{
+    display: flex;
+    padding: 20px;
+  
+    
+    cursor: pointer;
+    height: 50px;
+    border-bottom: 1.4px solid black;
+
+   
+}
+.avatar_chat{
+   
+}
+.group_chat:hover{
+    background-color: rgba(255, 255, 255, 0.39);
+}
+.chat_h2{
+    color: cornflowerblue;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.chat_nameAndtext{
+    margin-left: 20px;
+    margin-top: 13px;
+
+}

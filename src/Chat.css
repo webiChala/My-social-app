@@ -1,0 +1,107 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+   
+}
+.chat_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 1px solid #dadbd3;
+   
+
+}
+
+.icons{
+    display: flex;
+   
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.icons_again{
+    display: flex;
+    width: 140px;
+    justify-content: space-evenly;
+   
+    align-items: center;
+}
+.chat_body{
+    flex: 1;
+    background-image: url('https://i.stack.imgur.com/jGlzr.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+
+}
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    
+}
+.chat_name{
+    position: absolute;
+    top: -20px;
+  
+    bottom: 20px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: white;
+   
+}
+.chat_time{
+    
+    font-size: xx-small;
+
+   
+   margin-left: 10px;
+   margin-top: 300px;
+   
+    
+}
+.chat_reciever{
+    
+    background-color: cadetblue;
+    margin-left: auto;
+}
+.chat_footer{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    background-color: rgb(219, 210, 210);
+    
+}
+.chat_footer > form {
+    flex: 1;
+    display: flex;
+}
+.chat_footer > form > input {
+    border: none;
+    border-radius: 50px;
+    flex:1;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.chat_footer > form > button{
+   
+    display: None;
+}
+.chat_footer > .MuiSvgIcon-root {
+    color: gray;
+    padding: 10px;
+
+}
+
+
